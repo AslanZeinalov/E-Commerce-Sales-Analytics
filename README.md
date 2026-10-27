@@ -38,7 +38,7 @@
 
 ### Модель данных (Star Schema)
 
-![Model Screenshot](screenshots/model_view.png)
+![Model Screenshot](screenshots/scheme.png)
 
 **Таблицы измерений (Dimensions):**
 - `Dim_Customer` — справочник клиентов
@@ -147,44 +147,31 @@ AVERAGEX(
 ## 📸 Скриншоты дашборда
 
 ### Executive Dashboard
-![Executive](screenshots/executive_dashboard.png)
+![Executive](screenshots/1.png)
 *Обзор ключевых метрик: выручка, прибыль, заказы, клиенты*
 
 ### Sales Dashboard
-![Sales](screenshots/sales_dashboard.png)
+![Sales](screenshots/2.png)
 *Анализ продаж по времени, регионам и категориям*
 
 ### Customer Dashboard
-![Customer](screenshots/customer_dashboard.png)
+![Customer](screenshots/3.png)
 *Сегментация клиентов и анализ LTV*
 
 ### Product Dashboard
-![Product](screenshots/product_dashboard.png)
+![Product](screenshots/4.png)
 *Топ-товары и матрица прибыльности (ABC-анализ)*
 
 ### Marketing Dashboard
-![Marketing](screenshots/marketing_dashboard.png)
+![Marketing](screenshots/5.png)
 *Эффективность каналов и CAC vs LTV*
 
 ### Operations Dashboard
-![Operations](screenshots/operations_dashboard.png)
+![Operations](screenshots/6.png)
 *Логистика, возвраты и качество обслуживания*
 
 ### Модель данных
-![Model](screenshots/data_model.png)
+![Model](screenshots/7.png)
 *Star Schema с таблицами измерений и фактов*
 
-## 🚀 Как использовать дашборд
 
-1. **Скачайте файл:** `E-Commerce_Dashboard.pbix`
-2. **Откройте в Power BI Desktop** (версия 2023+)
-3. **Навигация:** Используйте меню слева для перехода между страницами
-4. **Фильтры:** 
-   - Глобальные фильтры (год, регион) работают на всех страницах
-   - Локальные фильтры специфичны для каждой страницы
-5. **Интерактивность:** 
-   - Кликните на элемент графика для фильтрации
-   - Используйте Decomposition Tree для детального анализа
-   - Наведите на элементы для получения деталей
-
-**Требования:** Power BI Desktop (бесплатная версия подходит)
